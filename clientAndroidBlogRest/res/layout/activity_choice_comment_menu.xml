@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ChoiceCommentMenuActivity"
+    android:background="@android:color/white" 
+    android:orientation="vertical">
+   <LinearLayout
+        android:id="@+id/llnavigation"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation_color"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="22dip"
+            android:paddingLeft="12dip"
+             android:textStyle="bold"
+             android:gravity="center_vertical"
+            android:text="@string/title_activity_choice_comment_menu" />
+        
+
+        
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lv_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      >
+
+    </ListView>
+
+</LinearLayout>

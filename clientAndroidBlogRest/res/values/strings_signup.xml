@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titlesignup">SignUp</string>
+    <string name="firstname">Prénom </string>
+    <string name="lastname"> Nom </string>
+    <string name="about"> A propos </string>
+    <string name="username"> Pseudo </string>
+    <string name="password"> Mot de passe </string>
+</resources>

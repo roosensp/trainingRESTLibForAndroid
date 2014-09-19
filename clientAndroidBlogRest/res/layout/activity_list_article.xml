@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+<LinearLayout
+        android:id="@+id/llcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+     <LinearLayout
+        android:id="@+id/llnavigation"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:background="@color/navigation_color"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="22dip"
+            android:paddingLeft="12dip"
+             android:textStyle="bold"
+             android:gravity="center_vertical"
+            android:text="@string/title_list_article" />
+        
+
+	    <ImageView
+	        android:id="@+id/image_login"
+	        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="right"
+			        android:layout_weight="1"
+			        android:gravity="right"
+			        android:scaleType="fitEnd"
+	        android:src="@drawable/user" />
+        
+    </LinearLayout>
+    
+      <LinearLayout
+        android:id="@+id/llactionnavigation"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal"
+         android:gravity="center_horizontal" >
+         <Button
+        android:id="@+id/bt_add_article"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create" />
+           
+        <Button
+        android:id="@+id/bt_list_tovalid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listtovalid" />
+             <Button
+        android:id="@+id/bt_satistique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/satistique" />
+           
+          
+      </LinearLayout>
+     
+	<LinearLayout
+        android:id="@+id/llsuivantprecedent"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal" 
+        android:gravity="center_horizontal">
+		    <Button
+		        android:id="@+id/bt_back"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		       	android:text="@string/pageback" />
+		
+		    <Button
+		        android:id="@+id/bt_next"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		    	android:text="@string/pagenext" />
+     </LinearLayout>
+      <ListView
+        android:id="@+id/lv_article"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        >
+    </ListView>
+     
+        </LinearLayout>
+
+   
+   
+</LinearLayout>

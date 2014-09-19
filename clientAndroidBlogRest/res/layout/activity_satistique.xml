@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SatistiqueActivity" 
+    android:orientation="vertical">
+
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+     <TextView
+        android:id="@+id/tv_title_countarticle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="@string/stat_nb_article" />
+    <TextView
+        android:id="@+id/tv_countarticle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="0"
+      	 />
+	</LinearLayout>
+	 <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+     <TextView
+        android:id="@+id/tv_title_countcomment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="@string/stat_nb_comment" />
+    <TextView
+        android:id="@+id/tv_countcomment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="0"
+      	 />
+	</LinearLayout>
+		 <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+     <TextView
+        android:id="@+id/tv_title_countarticlevalid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="@string/stat_nb_article_to_valid" />
+    <TextView
+        android:id="@+id/tv_countarticlevalid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="0"
+      	 />
+	</LinearLayout>
+		 <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+     <TextView
+        android:id="@+id/tv_title_countavgcomment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="@string/stat_avg_comment_by_article" />
+    <TextView
+        android:id="@+id/tv_avg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:text="0"
+      	 />
+	</LinearLayout>
+	 <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+     <TextView
+        android:id="@+id/tv_title_countuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      	android:text="@string/stat_nb_user" />
+    <TextView
+        android:id="@+id/tv_countuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+      	 />
+	</LinearLayout>
+
+</LinearLayout>

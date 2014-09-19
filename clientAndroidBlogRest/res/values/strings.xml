@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">clientAndroidBlogRest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="urlconnectionrest">http://10.154.110.251:8080/blog_M2_MIAGE_NTDP/webresources/</string>
+    <string name="title_activity_list_article">Blog MIAGE NTDP</string>
+    <string name="title_activity_article_detail">détail article</string>
+    <string name="pageback">précédent</string>
+    <string name="pagenext">suivant</string>
+    <string name="title_list_article"> Articles </string>
+    <string name="title_activity_sign_up">SignUP</string>
+    <string name="see_messages"> voir les messages </string>
+    <string name="title_activity_comment">Comment</string>
+    <string name="edit_comment">Laisser un commentaire</string>
+    <string name="title_activity_edit_comment">EditCommentActivity</string>
+    <string name="valid">Valider</string>
+    <string name="edit">Editer</string>
+    <string name="delete">Supprimer</string>
+    <string name="title_activity_edit_article">EditArticle</string>
+    <string name="title">Titre</string>
+    <string name="content">Content</string>
+    <string name="create"> Nouveau </string>
+    <string name="title_activity_choice_comment_menu">Options</string>
+    <string name="listtovalid">à valider</string>
+    <string name="listtonovalid">Articles publiés</string>
+    <string name="title_activity_choice_validate_article">ChoiceValidateArticle</string>
+    <string name="satistique">Satistique</string>
+    <string name="title_activity_satistique">SatistiqueActivity</string>
+    <string name="stat_nb_article">Nombre total d\'article :</string>
+    <string name="stat_nb_comment">Nombre total de commentaires :</string>
+    <string name="stat_nb_article_to_valid">Article à valider :</string>
+    <string name="stat_avg_comment_by_article">Moyenne de commentaire par article :</string>
+    <string name="stat_nb_user">Nombre d\'utilisateur :</string>
+    <string name="see_detail">voir détails</string>
+    <string name="share"> Partager</string>
+</resources>
