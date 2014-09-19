@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategorieDetailActivity"
+    android:orientation="vertical" >
+<LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/labelid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/idlabel" />
+
+    <TextView
+        android:id="@+id/labelidvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+</LinearLayout>
+    <LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <TextView
+        android:id="@+id/labelnom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomlabel" />
+    
+       <EditText
+        android:id="@+id/edit_text_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10" />
+       </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    <TextView
+        android:id="@+id/labeldescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptionlabel" />
+
+ 
+
+    <EditText
+        android:id="@+id/edit_text_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10" >
+		<requestFocus />
+    </EditText>
+ </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+     <Button
+         android:id="@+id/bt_update"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/update" />
+
+     <Button
+         android:id="@+id/bt_delete"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/delete" />
+     
+     <Button
+         android:id="@+id/bt_see_books"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/see_books" />
+     </LinearLayout>
+     <Button
+         android:id="@+id/bt_see_all_books"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/see_all_books" />
+
+</LinearLayout>

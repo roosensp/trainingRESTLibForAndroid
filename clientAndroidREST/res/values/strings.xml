@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">clientAndroidREST</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string-array name="menu">
+        <item>Catégorie</item>
+        <item>Livre</item>
+    </string-array>
+
+    <string name="title_activity_categories">CategoriesActivity</string>
+    <string name="urlconnectionrest">http://192.168.0.10:8080/bibliotheque_ntdp/webresources/</string>
+    <string name="title_activity_livre">LivreActivity</string>
+    <string name="button_txt"> Nouveau objet</string>
+    <string name="title_activity_categorie_detail">CategorieDetailActivity</string>
+
+    
+    <string name="idlabel"> id </string>
+    <string name="nomlabel"> Nom categorie</string>
+    <string name="descriptionlabel"> Description categorie</string>
+    <string  name="update"> Modifier </string>
+    <string  name="delete"> Supprimer </string>
+    <string name="see_books"> voir les livres</string>
+    <string name="see_all_books"> voir tout les livres</string>
+    
+</resources>
